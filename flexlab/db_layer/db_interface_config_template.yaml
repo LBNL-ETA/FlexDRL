@@ -1,0 +1,164 @@
+database:
+  host:
+  port:
+  username:
+  password:
+  database:
+
+  setpoint_table:
+
+query_condition:
+  ra:
+    flexgrid:
+      variable_agg_map:
+        ra_battery_rate_W: last
+        ra_battery_soc_percentage: last
+        pv_generation_W: mean
+        pv_generation_scaled_W: mean
+      table: flexgrid
+    power:
+      variables: [ra_plugload_power_W, ra_light_power_W, ra_fan_power_W, ra_hwp_power_W, ra_chwp_power_W, ra_hw_th_load_W, ra_chw_th_load_W]
+      agg: mean
+      table: power
+    hvac:
+      variables: [ra_sup_air_flow_sp_kgs, ra_sup_air_flow_sp_cmh, ra_sup_air_flow_kgs, ra_sup_air_flow_cmh, ra_sup_air_temp_C, ra_zone_air_temp1_C, ra_zone_air_temp2_C, ra_zone_temp_hsp_C, ra_zone_temp_csp_C]
+      agg: last
+      table: cella
+    lights:
+      variables: [ra_level1, ra_level2, ra_level3, ra_level4, ra_level5, ra_level6, ra_ambient1, ra_ambient2, ra_ambient3, ra_ambient4, ra_ambient5, ra_ambient6]
+      agg: last
+      table: lights
+    licor:
+      variables: [ra_licor_desk1_1_lux, ra_licor_desk1_2_lux, ra_licor_desk2_1_lux, ra_licor_desk2_2_lux, ra_licor_desk3_1_lux, ra_licor_desk3_2_lux, ra_licor_desk4_1_lux, ra_licor_desk4_2_lux, ra_licor_desk5_1_lux, ra_licor_desk5_2_lux, ra_licor_desk6_1_lux, ra_licor_desk6_2_lux]
+      agg: last
+      table: cella
+    weather:
+      variables: [diffused_irradiance_Wm2, global_irradiance_Wm2, oat_C, rh_percentage]
+      agg: last
+      table: weather
+    setpoints:
+      variables: [ra_sup_air_flow_sp_cmh_command, ra_battery_sp_command, ra_light_level_sp_command, ra_sup_air_flow_sp_kgs_command, ra_zone_temp_hsp_command, ra_zone_temp_csp_command]
+      agg: last
+      table: setpoints
+
+  rb:
+    flexgrid:
+      variable_agg_map:
+        rb_battery_rate_W: last
+        rb_battery_rate2_W: last
+        rb_battery_soc_percentage: last
+        pv_generation_W: mean
+        pv_generation_scaled_W: mean
+      table: flexgrid
+    power:
+      variables: [rb_plugload_power_W, rb_light_power_W, rb_fan_power_W, rb_hwp_power_W, rb_chwp_power_W, rb_hw_th_load_W, rb_chw_th_load_W]
+      agg: mean
+      table: power
+    hvac:
+      variables: [rb_sup_air_flow_sp_kgs, rb_sup_air_flow_sp_cmh, rb_sup_air_flow_kgs, rb_sup_air_flow_cmh, rb_sup_air_temp_C, rb_sup_air_temp_sp_C, rb_zone_air_temp1_C, rb_zone_air_temp2_C]
+      agg: last
+      table: cellb
+    lights:
+      variables: [rb_level1, rb_level2, rb_level3, rb_level4, rb_level5, rb_level6, rb_ambient1, rb_ambient2, rb_ambient3, rb_ambient4, rb_ambient5, rb_ambient6]
+      agg: last
+      table: lights
+    licor:
+      variables: [rb_licor_desk1_1_lux, rb_licor_desk1_2_lux, rb_licor_desk2_1_lux, rb_licor_desk2_2_lux, rb_licor_desk3_1_lux, rb_licor_desk3_2_lux, rb_licor_desk4_1_lux, rb_licor_desk4_2_lux, rb_licor_desk5_1_lux, rb_licor_desk5_2_lux, rb_licor_desk6_1_lux, rb_licor_desk6_2_lux]
+      agg: last
+      table: cellb
+    weather:
+      variables: [diffused_irradiance_Wm2, global_irradiance_Wm2, oat_C, rh_percentage]
+      agg: last
+      table: weather
+    setpoints:
+      variables: [rb_sup_air_temp_sp_command, rb_sup_air_flow_sp_cmh_command, rb_battery_sp_command, rb_light_level_sp_command, rb_sup_air_flow_sp_kgs_command]
+      agg: last
+      table: setpoints
+
+post_process:
+  ra:
+    OutTemp:
+      variables: [oat_C]
+      agg: mean
+    OutRH:
+      variables: [rh_percentage]
+      agg: mean
+    OutSI:
+      variables: [diffused_irradiance_Wm2]
+      agg: mean
+    ZoneTotalIlluA:
+      variables: [ra_ambient1, ra_ambient2, ra_ambient3, ra_ambient4, ra_ambient5, ra_ambient6]
+      agg: mean
+    ZoneTempA:
+      variables: [ra_zone_air_temp1_C, ra_zone_air_temp2_C]
+      agg: mean
+    SOC:
+      variables: [ra_battery_soc_percentage]
+      agg: mean
+      divideby: 100
+    PV:
+      variables: [pv_generation_scaled_W]
+      agg: mean
+    ra_hw_el_load_W:
+      variables: [ra_hw_th_load_W]
+      agg: mean
+      divideby: 0.95
+    ra_chw_el_load_W:
+      variables: [ra_chw_th_load_W]
+      agg: mean
+      divideby: -3
+    net_power:
+      requires: [ra_hw_el_load_W, ra_chw_el_load_W]
+      variables: [ra_plugload_power_W, ra_light_power_W, ra_fan_power_W, ra_chwp_power_W, ra_hwp_power_W, ra_hw_el_load_W, ra_chw_el_load_W]
+      agg: sum
+      divideby: 1000
+    net_energy:
+      requires: [net_power]
+      variables: [net_power]
+      divideby: 4 # 15/60
+
+  rb:
+    OutTemp:
+      variables: [oat_C]
+      agg: mean
+    OutRH:
+      variables: [rh_percentage]
+      agg: mean
+    OutSI:
+      variables: [diffused_irradiance_Wm2]
+      agg: mean
+    ZoneTotalIlluB:
+      #variables: [rb_licor_desk1_1_lux, rb_licor_desk1_2_lux, rb_licor_desk2_1_lux, rb_licor_desk2_2_lux, rb_licor_desk3_1_lux, rb_licor_desk3_2_lux, rb_licor_desk4_1_lux, rb_licor_desk4_2_lux, rb_licor_desk5_1_lux, rb_licor_desk5_2_lux, rb_licor_desk6_1_lux, rb_licor_desk6_2_lux]
+      variables: [rb_licor_desk3_1_lux, rb_licor_desk3_2_lux, rb_licor_desk4_1_lux, rb_licor_desk4_2_lux]
+      agg: mean
+    ZoneTempB:
+      variables: [rb_zone_air_temp1_C, rb_zone_air_temp2_C]
+      agg: mean
+    SOC:
+      variables: [rb_battery_soc_percentage]
+      agg: mean
+      divideby: 100
+    PV:
+      variables: [pv_generation_scaled_W]
+      agg: mean
+    rb_hw_el_load_W:
+      variables: [rb_hw_th_load_W]
+      agg: mean
+      divideby: 0.95
+    rb_chw_el_load_W:
+      variables: [rb_chw_th_load_W]
+      agg: mean
+      divideby: -3
+    negative_PV_W:
+      variables: [PV]
+      agg: mean
+      divideby: -1
+    net_power:
+      requires: [rb_hw_el_load_W, rb_chw_el_load_W, negative_PV_W]
+      variables: [rb_plugload_power_W, rb_light_power_W, rb_fan_power_W, rb_chwp_power_W, rb_hwp_power_W, rb_hw_el_load_W, rb_chw_el_load_W, rb_battery_rate_W, negative_PV_W]
+      agg: sum
+      divideby: 1000
+    net_energy:
+      requires: [net_power]
+      variables: [net_power]
+      divideby: 4 # 15/60

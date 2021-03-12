@@ -1,0 +1,900 @@
+Shadowing Combinations
+..Solar Distribution=FullInteriorAndExteriorWithReflectionsFromExteriorSurfaces
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=MIDDLE FIN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-EASTSIDE FIN
+..Surface=PARAPET SOUTH
+..Surface=Mir-PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=S1WALL-FLEXLAB-XR-ZONEB
+..Surface=S1WALL-FLEXLAB-XR-PLNMB
+..Surface=ROOF-FLEXLAB-XR-PLNMB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-MIDDLE FIN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=WESTSIDE FIN
+..Surface=PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=S1WALL-FLEXLAB-XR-ZONEA
+..Surface=S1WALL-FLEXLAB-XR-PLNMA
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WESTSIDE FIN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=14
+..Surface=Mir-MIDDLE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=PARAPET SOUTH
+..Surface=Mir-PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=WESTWALL-FLEXLAB-XR-ELECROOM-ZONEA
+..Surface=S1WALL-FLEXLAB-XR-ZONEA
+..Surface=S1WALL-FLEXLAB-XR-ZONEB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-WESTSIDE FIN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=6
+..Surface=PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=S1WALL-FLEXLAB-XR-ZONEA
+..Surface=S1WALL-FLEXLAB-XR-PLNMA
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EASTSIDE FIN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-EASTSIDE FIN is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=19
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=PARAPET EAST
+..Surface=EASTWALL-FLEXLAB-XR-ELECROOM-ZONEB
+..Surface=S1WALL-FLEXLAB-XR-ZONEA
+..Surface=E1WALL-FLEXLAB-XR-ZONEB
+..Surface=E3WALL-FLEXLAB-XR-ZONEB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARAPET SOUTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=MIDDLE FIN
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-PARAPET SOUTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARAPET WEST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-PARAPET WEST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=Mir-MIDDLE FIN
+..Surface=Mir-WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+..Surface=ROOF-FLEXLAB-XR-PLNMB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARAPET NORTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-PARAPET NORTH is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=12
+..Surface=MIDDLE FIN
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PARAPET EAST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-PARAPET EAST is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+..Surface=ROOF-FLEXLAB-XR-PLNMB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLEXLAX-X2 SHADE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-FLEXLAX-X2 SHADE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=17
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=PARAPET EAST
+..Surface=FLEXLAX-X1 SHADE
+..Surface=EASTWALL-FLEXLAB-XR-ELECROOM-ZONEB
+..Surface=E1WALL-FLEXLAB-XR-ZONEB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLEXLAX-X1 SHADE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-FLEXLAX-X2 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-FLEXLAX-X1 SHADE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=16
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=PARAPET EAST
+..Surface=EASTWALL-FLEXLAB-XR-ELECROOM-ZONEB
+..Surface=E1WALL-FLEXLAB-XR-ZONEB
+..Surface=E3WALL-FLEXLAB-XR-ZONEB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E1WALL-FLEXLAB-XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E2WALL-FLEXLAB-XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=NORTHWALL-FLEXLAB-XR-ELECROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S2WALL-FLEXLAB-XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S3WALL-FLEXLAB-XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WESTWALL-FLEXLAB-XR-ELECROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=WESTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=N1WALL-FLEXLAB-XR-ZONEA
+..Surface=N1WALL-FLEXLAB-XR-PLNMA
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=DOOR_EXTERIOR_XR-ELECROOM-ZONEA
+==================================
+Surface=DOOR_EXTERIOR_XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-ELECROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF1-FLEXLAB-XR-ELECROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF2-FLEXLAB-XR-ELECROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EASTWALL-FLEXLAB-XR-ELECROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=N1WALL-FLEXLAB-XR-ZONEB
+..Surface=N1WALL-FLEXLAB-XR-PLNMB
+..Surface=ROOF-FLEXLAB-XR-PLNMB
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=DOOR_EXTERIOR_XR-ELECROOM-ZONEB
+==================================
+Surface=DOOR_EXTERIOR_XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=NORTHWALL-FLEXLAB-XR-ELECROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S2WALL-FLEXLAB-XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S3WALL-FLEXLAB-XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W1WALL-FLEXLAB-XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W2WALL-FLEXLAB-XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-ELECROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF1-FLEXLAB-XR-ELECROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF2-FLEXLAB-XR-ELECROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=EASTWALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N1WALL-FLEXLAB-XR-MECHROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S2WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DOOR_INTERIOR_XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S3WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S4WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W1WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W2WALL-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-MECHROOM-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF1-FLEXLAB-XR-MECHROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF2-FLEXLAB-XR-MECHROOM-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E1WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E2WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N1WALL-FLEXLAB-XR-MECHROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N2WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S2WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DOOR_INTERIOR_XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S3WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S4WALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=WESTWALL-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-MECHROOM-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF1-FLEXLAB-XR-MECHROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF2-FLEXLAB-XR-MECHROOM-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=11
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+..Surface=ROOF-FLEXLAB-XR-PLNMA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E1WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E2WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E3WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N1WALL-FLEXLAB-XR-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=WESTWALL-FLEXLAB-XR-ELECROOM-ZONEA
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=DOOR_EXTERIOR_XR-ZONEA
+==================================
+Surface=DOOR_EXTERIOR_XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N3WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N4WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DOOR_INTERIOR_XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N5WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-ZONEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+Number of back surfaces=14
+...Surface=E1WALL-FLEXLAB-XR-ZONEA
+...Surface=E2WALL-FLEXLAB-XR-ZONEA
+...Surface=E3WALL-FLEXLAB-XR-ZONEA
+...Surface=N1WALL-FLEXLAB-XR-ZONEA
+...Surface=DOOR_EXTERIOR_XR-ZONEA
+...Surface=N3WALL-FLEXLAB-XR-ZONEA
+...Surface=N4WALL-FLEXLAB-XR-ZONEA
+...Surface=DOOR_INTERIOR_XR-ZONEA
+...Surface=N5WALL-FLEXLAB-XR-ZONEA
+...Surface=W1WALL-FLEXLAB-XR-ZONEA
+Number of receiving sub surfaces=1
+....Surface=WIN-FLEXLAB-XR-ZONEA
+==================================
+Surface=WIN-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W1WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W2WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W3WALL-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=CEILING-FLEXLAB-XR-ZONEA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E1WALL-FLEXLAB-XR-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E3WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N1WALL-FLEXLAB-XR-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=EASTWALL-FLEXLAB-XR-ELECROOM-ZONEB
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=DOOR_EXTERIOR_XR-ZONEB
+==================================
+Surface=DOOR_EXTERIOR_XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N3WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N4WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=DOOR_INTERIOR_XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N5WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+Number of back surfaces=14
+...Surface=E1WALL-FLEXLAB-XR-ZONEB
+...Surface=E3WALL-FLEXLAB-XR-ZONEB
+...Surface=N1WALL-FLEXLAB-XR-ZONEB
+...Surface=DOOR_EXTERIOR_XR-ZONEB
+...Surface=N3WALL-FLEXLAB-XR-ZONEB
+...Surface=N4WALL-FLEXLAB-XR-ZONEB
+...Surface=DOOR_INTERIOR_XR-ZONEB
+...Surface=N5WALL-FLEXLAB-XR-ZONEB
+...Surface=W1WALL-FLEXLAB-XR-ZONEB
+...Surface=W2WALL-FLEXLAB-XR-ZONEB
+Number of receiving sub surfaces=1
+....Surface=WIN-FLEXLAB-XR-ZONEB
+==================================
+Surface=WIN-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W1WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W2WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W3WALL-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E2WALL-FLEXLAB-XR-ZONEB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=CEILING-FLEXLAB-XR-ZONEB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E1WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E2WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E3WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N1WALL-FLEXLAB-XR-PLNMA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=WESTWALL-FLEXLAB-XR-ELECROOM-ZONEA
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N3WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N4WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N5WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-PLNMA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W1WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W2WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W3WALL-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-PLNMA is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF-FLEXLAB-XR-PLNMA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=Mir-MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E1WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E3WALL-FLEXLAB-XR-PLNMB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N1WALL-FLEXLAB-XR-PLNMB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=EASTWALL-FLEXLAB-XR-ELECROOM-ZONEB
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N3WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N4WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=N5WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=S1WALL-FLEXLAB-XR-PLNMB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W1WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W2WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=W3WALL-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=E2WALL-FLEXLAB-XR-PLNMB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=FLOOR-FLEXLAB-XR-PLNMB is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ROOF-FLEXLAB-XR-PLNMB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=MIDDLE FIN
+..Surface=WESTSIDE FIN
+..Surface=Mir-EASTSIDE FIN
+..Surface=Mir-PARAPET SOUTH
+..Surface=Mir-PARAPET WEST
+..Surface=Mir-PARAPET NORTH
+..Surface=Mir-PARAPET EAST
+..Surface=Mir-FLEXLAX-X2 SHADE
+..Surface=Mir-FLEXLAX-X1 SHADE
+Number of back surfaces=0
+Number of receiving sub surfaces=0

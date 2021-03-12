@@ -1,0 +1,7 @@
+max_battery_rate: 3300
+min_battery_rate: -3300
+max_battery_soc: 90
+min_battery_soc: 11
+min_air_flow_kgs: 0.05
+current_cell: a
+battery_total_capacity: 7200

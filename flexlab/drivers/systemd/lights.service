@@ -1,0 +1,11 @@
+[Unit]
+Description=Collect sensor data from lights
+Wants=postgres.service
+
+[Service]
+WorkingDirectory=/home/btmdrl/DRL_FLEXLAB/flexlab/drivers
+ExecStart=/home/btmdrl/anaconda3/bin/python lights.py
+User=btmdrl
+
+[Install]
+WantedBy=multi-user.target

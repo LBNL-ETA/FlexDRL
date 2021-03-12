@@ -1,0 +1,24 @@
+test_name: "Test_138"
+test_iterations: 5
+actor_learning_rate: 0.00005
+critic_learning_rate: 0.0001
+gamma: 0.98
+replay_buffer_size: 1500000
+initial_replay_buffer_size: 1500000
+batch_size: 128
+ou_enable: True
+ou_theta: 0.15
+ou_sigma: 0.3
+ou_mu: 0.0
+epsilon: 0.3
+nn_features1: 400
+nn_features2: 300
+episode_simulation_days: 365
+pv_panels_number: 10.0
+alpha_reward: 100.0
+beta_reward: 1.25
+gamma_reward: 1.5
+eprice_ahead: 0
+    
+
+

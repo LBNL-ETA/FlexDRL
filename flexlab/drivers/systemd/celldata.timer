@@ -1,0 +1,10 @@
+[Unit]
+Description=Run cella data collection every minute
+
+[Timer]
+OnCalendar=*:0/1
+Persistent=true
+Unit=celldata.service
+
+[Install]
+WantedBy=timers.target

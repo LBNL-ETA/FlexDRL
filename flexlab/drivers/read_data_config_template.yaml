@@ -1,0 +1,193 @@
+database:
+  host:
+  port:
+  username:
+  password:
+  database:
+
+flexgrid:
+  db_table_name:
+  pv_scaling_divideby: 2
+  api:
+    host:
+    port:
+  inverter_variable_map:
+    1:
+      ac_power: ra_battery_rate_W
+      battery_soc: ra_battery_soc_percentage
+      battery_power: ra_battery_rate2_W
+    2:
+      ac_power: pv_generation_W
+    3:
+      ac_power: rb_battery_rate_W
+      battery_soc: rb_battery_soc_percentage
+      battery_power: rb_battery_rate2_W
+
+lights:
+  db_table_name: lights
+  api:
+    host:
+    port:
+    app_id:
+    api_key:
+  cree_device_uuid_map:
+    rb:
+      8335bb0a-2443-40c6-bc13-7987377f2541: 1
+      8ac1dcfc-72b4-4af4-9c70-8f91de61eb44: 2
+      9c020252-a3c2-423b-b1b4-244636da8362: 3
+      dd9d144a-7942-4200-beba-7e2ff78c7f62: 4
+      bc27a8ef-a5ae-49d1-9d12-567e0a06fb67: 5
+      e2368a97-5669-487f-8777-e067adf4f715: 6
+    ra:
+      01430ff2-1817-4743-9d0f-64bcfc810c26: 1
+      e2c64430-5acb-44ae-b207-b64ce6dfb74d: 2
+      b6ba46d5-a33f-403f-bf9e-23ae3c389bb2: 3
+      6f24652b-8896-4bc2-9f38-bd1713431c4f: 4
+      2d50d04d-79fd-40ff-a5b8-064fe075a6ec: 5
+      17963431-322b-4aa7-ac17-293c2df8edbe: 6
+#      b82dbeb9-d149-43c1-8568-b026c194044f: 7
+
+cell_data:
+  api:
+    flex_user:
+    flex_password:
+    flexq_login:
+  cella:
+    db_table_name:
+    cws_point_map:
+      RA-IDBTS-1: ra_zone_air_temp1_C
+      RA-IDBTS-2: ra_zone_air_temp2_C
+      RA-SATsp: ra_sup_air_temp_sp_C
+      RA-SAT-1: ra_sup_air_temp_C
+      RA-SAFsp: ra_sup_air_flow_sp_cmh
+      RA-ASAM-1: ra_sup_air_flow_cmh
+      XRA-L1CH27_171: ra_licor_desk1_1_lux
+      XRA-L1CH28_172: ra_licor_desk1_2_lux
+      XRA-L1CH19_163: ra_licor_desk2_1_lux
+      XRA-L1CH18_162: ra_licor_desk2_2_lux
+      XRA-L1CH23_167: ra_licor_desk3_1_lux
+      XRA-L1CH22_166: ra_licor_desk3_2_lux
+      XRA-L1CH4_148: ra_licor_desk4_1_lux
+      XRA-L1CH16_160: ra_licor_desk4_2_lux
+      XRA-L1CH5_149: ra_licor_desk5_1_lux
+      XRA-L1CH2_146: ra_licor_desk5_2_lux
+      XRA-L1CH1_145: ra_licor_desk6_1_lux
+      XRA-L1CH0_144: ra_licor_desk6_2_lux
+      RA-remoteZATHsp: ra_zone_temp_hsp_C
+      RA-remoteZATCsp: ra_zone_temp_csp_C
+  cellb:
+    db_table_name:
+    cws_point_map:
+      RB-IDBTS-1: rb_zone_air_temp1_C
+      RB-IDBTS-2: rb_zone_air_temp2_C
+      RB-SATsp: rb_sup_air_temp_sp_C
+      RB-SAT-1: rb_sup_air_temp_C
+      RB-SAFsp: rb_sup_air_flow_sp_cmh
+      RB-ASAM-1: rb_sup_air_flow_cmh
+      XRB-L1CH10_154: rb_licor_desk1_1_lux
+      XRB-L1CH9_153: rb_licor_desk1_2_lux
+      XRB-L1CH22_166: rb_licor_desk2_1_lux
+      XRB-L1CH23_167: rb_licor_desk2_2_lux
+      XRB-L1CH19_163: rb_licor_desk3_1_lux
+      XRB-L1CH18_162: rb_licor_desk3_2_lux
+      XRB-L1CH2_146: rb_licor_desk4_1_lux
+      XRB-L1CH3_147: rb_licor_desk4_2_lux
+      XRB-L1CH0_144: rb_licor_desk5_1_lux
+      XRB-L1CH1_145: rb_licor_desk5_2_lux
+      XRB-L1CH16_160: rb_licor_desk6_1_lux
+      XRB-L1CH7_151: rb_licor_desk6_2_lux
+
+  power:
+    db_table_name:
+    power_meter_channels_map:
+      ra_fan_power_W: [A8, A22, A34]
+      ra_light_power_W: [A27, A41]
+      ra_plugload_power_W: [A1, A3, A5, A7, A15, A17, A19, A21, A29, A33, A35]
+      ra_chwp_power_W: [A30]
+      ra_hwp_power_W: [A18]
+
+      rb_fan_power_W: [A10, A24, A36]
+      rb_light_power_W: [B18, B25, B26, B32, B39, B40]
+      rb_plugload_power_W: [B1, B3, B5, B7, B15, B17, B19, B21, B29, B33, B35]
+      rb_chwp_power_W: [A4]
+      rb_hwp_power_W: [A32]
+
+    power_thermal_channels_map:
+      ra_chw_th_load_W:
+        RA-CHWFM-2: ra_chw_flow
+        RA-CHWSTS-2: ra_chw_sup_temp
+        RA-CHWRTS-2: ra_chw_ret_temp
+      ra_hw_th_load_W:
+        RA-HWFM-2: ra_hw_flow
+        RA-HWSTS-2: ra_hw_sup_temp
+        RA-HWRTS-2: ra_hw_ret_temp
+      ra_hvac_th_load_W:
+        hw_load: ra_chw_th_load_W
+        chw_load: ra_chw_th_load_W
+        ahu_load: ra_fan_power_W
+
+      rb_chw_th_load_W:
+        RB-CHWFM-2: rb_chw_flow
+        RB-CHWSTS-2: rb_chw_sup_temp
+        RB-CHWRTS-2: rb_chw_ret_temp
+      rb_hw_th_load_W:
+        RB-HWFM-2: rb_hw_flow
+        RB-HWSTS-2: rb_hw_sup_temp
+        RB-HWRTS-2: rb_hw_ret_temp
+      rb_hvac_th_load_W:
+        hw_load: rb_chw_th_load_W
+        chw_load: rb_chw_th_load_W
+        ahu_load: rb_fan_power_W
+
+weather:
+  db_table_name:
+  api:
+    url:
+    time_threshold: 60
+    flex_user:
+    flex_password:
+    flexq_login:
+  cws_point_map:
+    W-OAT-2: oat_C
+    W-OAT-3_c6: oat2_C
+    W-RH-3_c7: rh_percentage
+    W-SP-GLOB-IRRAD: global_irradiance_Wm2
+    W-SP-DIFF-IRRAD: diffused_irradiance_Wm2
+
+
+
+#  point_uuid_map:
+#    d2b8263c-6c2d-59e1-8318-ccc720696f66: oat_C
+#    e535575d-7d0b-5af1-8e6f-1a8005c57f31: rh_percentage
+#    c2539173-0593-5ba2-aa83-d276e1f6f737: global_irradiance_Wm2
+#    e9f60b7a-27b7-510b-a809-10dfb3bec974: diffused_irradaince_Wm2
+#  point_uuid_map:
+#    3ed6e98b-ff36-58e1-868e-798a8df70087: ra_sup_air_temp_sp_C
+#    34e19021-a885-584f-8c80-7a273651354f: ra_sup_air_temp_C
+#    8d9172b1-25e5-5251-a5a3-4f4bce87f089: ra_sup_air_flow_sp_cmh
+#    26aaa5f6-b380-5bab-8abe-746fe6e7cafe: ra_sup_air_flow_cmh
+#    0b730202-37b4-5ba3-8287-378564a81784: ra_zone_air_temp_C
+#  point_uuid_map:
+#    55713bb3-ddc1-5899-8f0c-0f0d9b8d1d6c: rb_sup_air_temp_sp_C
+#    84e2bbe5-4cc1-545b-928a-4598e7686b7e: rb_sup_air_temp_C
+#    3c9019ec-7dc6-5a7e-97d9-312a79b9ef78: rb_sup_air_flow_sp_cmh
+#    47907713-7388-5d7e-93f9-6f29d97374e2: rb_sup_air_flow_cmh
+#    e79e6791-3151-5e46-aff3-530a3fbc5d60: rb_zone_air_temp_C
+#  point_uuid_map:
+#    48fd98dd-cbc2-482f-84ad-bfbd85ab4eab: ra_fan_power_W
+#    f3a62c66-3f50-46ca-a1ce-559ba98ece87: ra_chwp_power_W
+#    b9beee79-89cb-4707-9732-6cd12f99f93f: ra_hwp_power_W
+#    70b8d2f5-5ad2-4169-8881-c71d99c584c9: ra_light_power_W
+#    d5b06e87-0adb-4773-b3eb-e987a8d6e9da: ra_plugload_power_W
+#    db80cb35-aae1-439d-8455-41607fe18a7b: ra_chw_th_load_W
+#    9c969523-316e-4586-bcc0-b1a03af4b4c2: ra_hw_th_load_W
+#    838e5be8-9c58-49b7-8c27-8d0b753d9b90: ra_hvac_th_load_W
+#
+#    3dbd4fc5-dc03-4fcd-8306-bd2c30eb0b6e: rb_fan_power_W
+#    bed17bda-6a4b-41e3-bdfa-a505e047c1d8: rb_chwp_power_W
+#    f42d6d5f-1db7-4538-b47f-e6a29b3950da: rb_hwp_power_W
+#    267d0fd0-37a6-4f3e-a518-10412d770f24: rb_light_power_W
+#    0d7047e1-d908-4fee-8af1-75775d346705: rb_plugload_power_W
+#    c72e2849-9f1c-4dfa-975d-159a036bceda: rb_chw_th_load_W
+#    402a01d3-49ca-45e6-a45b-8fa608b770c7: rb_hw_th_load_W
+#    dba8a020-3c61-4c6e-951a-dc170b8cc93c: rb_hvac_th_load_W

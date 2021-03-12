@@ -1,0 +1,10 @@
+install docket on VM
+then change permissions :
+sudo chmod 666 /var/run/docker.sock
+
+
+scp mkiran@lrc-xfer.lbl.gov:/global/home/users/mkiran/trporun1/DRL_FLEXLAB/saves/best_-726723.486_1751950.dat ~/Desktop/
+
+
+singularity exec --bind /global/home/users/mkiran/ETA/DRL_FLEXLAB:/mnt/shared ne
+w_drl_flexlab.simg python simulation/rl_train_ddpg.py

@@ -1,0 +1,11 @@
+[Unit]
+Description=Collect weather data
+Wants=postgres.service
+
+[Service]
+WorkingDirectory=/home/btmdrl/DRL_FLEXLAB/flexlab/drivers
+ExecStart=/home/btmdrl/anaconda3/bin/python weather.py
+User=btmdrl
+
+[Install]
+WantedBy=multi-user.target

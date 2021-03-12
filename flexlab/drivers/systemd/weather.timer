@@ -1,0 +1,10 @@
+[Unit]
+Description=Run weather data collection every minute
+
+[Timer]
+OnCalendar=*:0/1
+Persistent=true
+Unit=weather.service
+
+[Install]
+WantedBy=timers.target

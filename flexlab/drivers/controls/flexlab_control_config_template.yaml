@@ -1,0 +1,72 @@
+database:
+  host:
+  port:
+  username:
+  password:
+  database:
+  setpoints_table:
+
+control:
+  variable_names: [
+    ra_sup_air_flow_sp_cmh_command,
+    ra_sup_air_temp_sp_command,
+    ra_light_level_sp_command,
+    ra_battery_sp_command,
+    ra_zone_temp_hsp_command,
+    ra_zone_temp_csp_command,
+    rb_sup_air_flow_sp_cmh_command,
+    rb_sup_air_temp_sp_command,
+    rb_light_level_sp_command,
+    rb_battery_sp_command,
+  ]
+  query_time_minutes: 16
+  revert_to_default_time_threshold_seconds: 3600
+  default_values:
+    ra_sup_air_flow_sp_cmh_command: -1
+    ra_sup_air_temp_sp_command: -1
+    ra_light_level_sp_command: 100
+    ra_battery_sp_command: 0
+    ra_zone_temp_hsp_command: -1
+    ra_zone_temp_csp_command: -1
+    rb_sup_air_flow_sp_cmh_command: -1
+    rb_sup_air_temp_sp_command: -1
+    rb_light_level_sp_command: 100
+    rb_battery_sp_command: 0
+
+flexgrid:
+  control_flag:
+    ra: False
+    rb: False
+  api:
+      host:
+      port:
+
+flexlab:
+  control_flag:
+    ra: False
+    rb: False
+  api:
+    flex_user:
+    flex_password:
+    flexq_login:
+  cws_point_map:
+    rb_sup_air_flow_sp_cmh_command: RB-SAFsp
+    rb_sup_air_temp_sp_command: RB-SATsp
+    ra_sup_air_flow_sp_cmh_command: RA-SAFsp
+    ### remove this
+    ra_sup_air_temp_sp_command: RA-SATsp
+    ra_zone_temp_hsp_command: RA-remoteZATHsp
+    ra_zone_temp_csp_command: RA-remoteZATCsp
+
+lights:
+  control_flag:
+    ra: False
+    rb: False
+  api:
+    host:
+    port:
+    app_id:
+    app_key:
+  cree_space_uuid_map:
+    ra: a6b5d187-0881-420d-829f-cdbc8f47ffc5
+    rb: e2904fc3-0dc7-48c4-a54e-97e5d14106be

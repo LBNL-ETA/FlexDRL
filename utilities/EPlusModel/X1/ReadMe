@@ -1,0 +1,58 @@
+
+1. Different versions of E+ model
+raw_model: original model developed by Baptiste
+
+OTHEQ_*_*
+
+  Descrption:
+  - HVAC is controlled by adjusting the heat input to room, through changing the 
+    schedule of other equipment. 
+  - For model settings, see Section 7.1 in 
+    https://simulationresearch.lbl.gov/fmu/EnergyPlus/export/userGuide
+
+  Input:
+  - heat input to the room
+
+  Output:
+  - room temp
+
+HVAC_*_*
+
+  Descrption:
+  - HVAC is controlled by adjusting supply air temp and flow rate, hot/chilled water temp. 
+
+  Input:
+  - supply air temp
+  - supply air flow rate
+  - hot water supply temp
+  - chilled water supply temp
+
+  Output:
+  - room temp
+      
+sha_*_*
+
+  Descrption:
+  - Interior shading is controlled: 1 for shading is on, cover the window;
+                                    0 for shading is off, not cover the window; 
+  - The shading is controlled by: 1. adding a shading schedule (FMU_SHADING_ZONEA), which is input from csv or FMU
+				  2. adding a shading material (ROLL SHADE) to (WindowMaterial:Shade)
+                                  3. using (FMU_SHADING_ZONEA) to define (shadingControl_ZONEA) an object of
+                                     (WINDOWPROPERTY:SHADINGCONTROL)
+                                  4. using (shadingControl_ZONEA) to define a field (Shading Control Name) of the 
+	                             window (Win-FlexLab-X3-ZoneA), an object of (FenestrationSurface:Detailed)
+ 
+  Input:
+  - heat input to the room
+
+  Output:
+  - room temp
+
+*_csv_*: used to test model, input is from csv file
+*_fmu_*: used to create fmu, input is from fmu
+
+
+*_*_A: only control room A
+*_*_B: only control room B
+*_*_AB: control room A and B
+

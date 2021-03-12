@@ -1,0 +1,42 @@
+Program Version,EnergyPlus, Version 8.4.0-09f5359d8a, YMD=2020.01.31 11:13,IDD_Version 8.4.0
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=OAKLAND METROPOLITAN ARPT_CA_USA DESIGN_CONDITIONS
+   **   ~~~   ** ..Weather File Location=CA_SAN-FRANCISCO-IAP - USA Custom-724940 WMO#=724940
+   **   ~~~   ** ..due to location differences, Latitude difference=[0.10] degrees, Longitude difference=[0.14] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[150.00] percent, [3.00] meters.
+   ** Warning ** For Schedule:File="SYS-A FAN FLOW RATE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-A CW SUPPLY TEMP", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-A HW SUPPLY TEMP", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-B FAN FLOW RATE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-B CW SUPPLY TEMP", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-B HW SUPPLY TEMP", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-A SUPPLY AIR TEMPERATURE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="SYS-B SUPPLY AIR TEMPERATURE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="FMU_SHADING_ZONEA", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="FMU_SHADING_ZONEB", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="LIGHT_SCHED_A", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** For Schedule:File="LIGHT_SCHED_B", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 10 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* There are 4 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 14 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 23.05sec

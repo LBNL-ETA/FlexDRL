@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<svg width="250mm" height="200mm" viewBox="0 0   2500    1500"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events">
+<g font-family="Verdana" font-size="8" >
+  <line x1="   300" y1="   510" x2="   300" y2="   590" style = "stroke:silver  ;"/>
+  <line x1="   800" y1="   190" x2="   800" y2="    30" style = "stroke:silver  ;"/>
+  <line x1="   800" y1="   270" x2="   800" y2="   110" style = "stroke:silver  ;"/>
+  <line x1="   800" y1="   350" x2="   550" y2="    30" style = "stroke:silver  ;"/>
+  <line x1="   800" y1="   430" x2="   550" y2="   110" style = "stroke:silver  ;"/>
+  <rect x="   200" y="   500" width="   200" height="    20" style = "fill:snow; stroke: Black;"/>     1
+  <text x="   202" y="   513">OutdoorAir:NodeList</text>
+  <rect x="   200" y="   580" width="   200" height="    20" style = "fill:snow; stroke: Black;"/>     2
+  <text x="   202" y="   593">OutdoorAir:NodeList</text>
+  <rect x="  1450" y="    20" width="   200" height="    20" style = "fill:chartreuse; stroke: Black;"/>    11
+  <text x="  1452" y="    33">FLEXLAB-XR-ZONEA</text>
+  <rect x="  1200" y="    20" width="   200" height="    20" style = "fill:wheat; stroke: Black;"/>    13
+  <text x="  1202" y="    33">SYS-A ZONE SPLITTER</text>
+  <rect x="  1200" y="   100" width="   200" height="    20" style = "fill:wheat; stroke: Black;"/>    14
+  <text x="  1202" y="   113">SYS-B ZONE SPLITTER</text>
+  <rect x="  1700" y="    20" width="   200" height="    20" style = "fill:lightgreen; stroke: Black;"/>    15
+  <text x="  1702" y="    33">RETURNPLENUM-A</text>
+  <rect x="  1700" y="   100" width="   200" height="    20" style = "fill:lightgreen; stroke: Black;"/>    16
+  <text x="  1702" y="   113">RETURNPLENUM-B</text>
+  <rect x="  1950" y="    20" width="   200" height="    20" style = "fill:wheat; stroke: Black;"/>    17
+  <text x="  1952" y="    33">SYS-A ZONE MIXER</text>
+  <rect x="  1950" y="   100" width="   200" height="    20" style = "fill:wheat; stroke: Black;"/>    18
+  <text x="  1952" y="   113">SYS-B ZONE MIXER</text>
+  <rect x="   200" y="    20" width="   200" height="    20" style = "fill:lawngreen; stroke: Black;"/>    19
+  <text x="   202" y="    33">SYS-A OAM BOX</text>
+  <rect x="   200" y="   100" width="   200" height="    20" style = "fill:lawngreen; stroke: Black;"/>    20
+  <text x="   202" y="   113">SYS-B OAM BOX</text>
+  <rect x="   700" y="   180" width="   200" height="    20" style = "fill:salmon; stroke: Black;"/>    21
+  <text x="   702" y="   193">SYS-A HEATING COIL</text>
+  <rect x="   700" y="    20" width="   200" height="    20" style = "fill:salmon; stroke: Black;"/>    22
+  <text x="   702" y="    33">SYS-A HEATING COIL</text>
+  <rect x="   700" y="   260" width="   200" height="    20" style = "fill:salmon; stroke: Black;"/>    23
+  <text x="   702" y="   273">SYS-B HEATING COIL</text>
+  <rect x="   700" y="   100" width="   200" height="    20" style = "fill:salmon; stroke: Black;"/>    24
+  <text x="   702" y="   113">SYS-B HEATING COIL</text>
+  <rect x="   700" y="   340" width="   200" height="    20" style = "fill:skyblue; stroke: Black;"/>    25
+  <text x="   702" y="   353">SYS-A COOLING COIL</text>
+  <rect x="   450" y="    20" width="   200" height="    20" style = "fill:skyblue; stroke: Black;"/>    26
+  <text x="   452" y="    33">SYS-A COOLING COIL</text>
+  <rect x="   700" y="   420" width="   200" height="    20" style = "fill:skyblue; stroke: Black;"/>    27
+  <text x="   702" y="   433">SYS-B COOLING COIL</text>
+  <rect x="   450" y="   100" width="   200" height="    20" style = "fill:skyblue; stroke: Black;"/>    28
+  <text x="   452" y="   113">SYS-B COOLING COIL</text>
+  <rect x="   950" y="    20" width="   200" height="    20" style = "fill:silver; stroke: Black;"/>    33
+  <text x="   952" y="    33">SYS-A SUPPLY FAN</text>
+  <rect x="   950" y="   100" width="   200" height="    20" style = "fill:silver; stroke: Black;"/>    34
+  <text x="   952" y="   113">SYS-B SUPPLY FAN</text>
+  <rect x="   200" y="   180" width="   200" height="    20" style = "fill:indianred; stroke: Black;"/>    37
+  <text x="   202" y="   193">SYS-A PURCHASED HEATING</text>
+  <rect x="   200" y="   260" width="   200" height="    20" style = "fill:indianred; stroke: Black;"/>    38
+  <text x="   202" y="   273">SYS-B PURCHASED HEATING</text>
+  <rect x="   200" y="   340" width="   200" height="    20" style = "fill:powderblue; stroke: Black;"/>    39
+  <text x="   202" y="   353">SYS-A PURCHASED COOLING</text>
+  <rect x="   200" y="   420" width="   200" height="    20" style = "fill:powderblue; stroke: Black;"/>    40
+  <text x="   202" y="   433">SYS-B PURCHASED COOLING</text>
+  <rect x="   450" y="   340" width="   200" height="    20" style = "fill:springgreen; stroke: Black;"/>    41
+  <text x="   452" y="   353">SYS-A CW SEC CIRC PUMP2</text>
+  <rect x="   450" y="   420" width="   200" height="    20" style = "fill:springgreen; stroke: Black;"/>    42
+  <text x="   452" y="   433">SYS-B CW SEC CIRC PUMP2</text>
+  <rect x="   450" y="   180" width="   200" height="    20" style = "fill:springgreen; stroke: Black;"/>    43
+  <text x="   452" y="   193">SYS-A HW SEC CIRC PUMP2</text>
+  <rect x="   450" y="   260" width="   200" height="    20" style = "fill:springgreen; stroke: Black;"/>    44
+  <text x="   452" y="   273">SYS-B HW SEC CIRC PUMP2</text>
+  <rect x="  1450" y="   100" width="   200" height="    20" style = "fill:chartreuse; stroke: Black;"/>    45
+  <text x="  1452" y="   113">FLEXLAB-XR-ZONEB</text>
+  <line x1="  1400" y1="    30" x2="  1450" y2="    30" style = "stroke: Black;"/>
+  <line x1="  1400" y1="   110" x2="  1450" y2="   110" style = "stroke: Black;"/>
+  <line x1="  1900" y1="    30" x2="  1950" y2="    30" style = "stroke: Black;"/>
+  <line x1="  1900" y1="   110" x2="  1950" y2="   110" style = "stroke: Black;"/>
+  <line x1="   400" y1="    30" x2="   450" y2="    30" style = "stroke: Black;"/>
+  <line x1="   400" y1="   110" x2="   450" y2="   110" style = "stroke: Black;"/>
+  <line x1="   900" y1="    30" x2="   950" y2="    30" style = "stroke: Black;"/>
+  <line x1="   900" y1="   110" x2="   950" y2="   110" style = "stroke: Black;"/>
+  <line x1="   650" y1="    30" x2="   700" y2="    30" style = "stroke: Black;"/>
+  <line x1="   650" y1="   110" x2="   700" y2="   110" style = "stroke: Black;"/>
+  <line x1="  1150" y1="    30" x2="  1200" y2="    30" style = "stroke: Black;"/>
+  <line x1="  1150" y1="   110" x2="  1200" y2="   110" style = "stroke: Black;"/>
+  <line x1="   400" y1="   190" x2="   450" y2="   190" style = "stroke: Black;"/>
+  <line x1="   400" y1="   270" x2="   450" y2="   270" style = "stroke: Black;"/>
+  <line x1="   400" y1="   350" x2="   450" y2="   350" style = "stroke: Black;"/>
+  <line x1="   400" y1="   430" x2="   450" y2="   430" style = "stroke: Black;"/>
+  <line x1="   650" y1="   350" x2="   700" y2="   350" style = "stroke: Black;"/>
+  <line x1="   650" y1="   430" x2="   700" y2="   430" style = "stroke: Black;"/>
+  <line x1="   650" y1="   190" x2="   700" y2="   190" style = "stroke: Black;"/>
+  <line x1="   650" y1="   270" x2="   700" y2="   270" style = "stroke: Black;"/>
+  <line x1="  1650" y1="    30" x2="  1700" y2="    30" style = "stroke: Black;"/>
+  <line x1="  1650" y1="   110" x2="  1700" y2="   110" style = "stroke: Black;"/>
+  <line x1="   200" y1="    30" x2="   175" y2="    30" style = "stroke: Black;"/>
+  <line x1="   175" y1="    30" x2="   175" y2="     0" style = "stroke: Black;"/>
+  <line x1="   175" y1="     0" x2="  2175" y2="     0" style = "stroke: Black;"/>
+  <line x1="  2175" y1="     0" x2="  2175" y2="    30" style = "stroke: Black;"/>
+  <line x1="  2175" y1="    30" x2="  2150" y2="    30" style = "stroke: Black;"/>
+  <line x1="   200" y1="   110" x2="   175" y2="   110" style = "stroke: Black;"/>
+  <line x1="   175" y1="   110" x2="   175" y2="    80" style = "stroke: Black;"/>
+  <line x1="   175" y1="    80" x2="  2175" y2="    80" style = "stroke: Black;"/>
+  <line x1="  2175" y1="    80" x2="  2175" y2="   110" style = "stroke: Black;"/>
+  <line x1="  2175" y1="   110" x2="  2150" y2="   110" style = "stroke: Black;"/>
+  <line x1="   200" y1="   190" x2="   175" y2="   190" style = "stroke: Black;"/>
+  <line x1="   175" y1="   190" x2="   175" y2="   160" style = "stroke: Black;"/>
+  <line x1="   175" y1="   160" x2="   925" y2="   160" style = "stroke: Black;"/>
+  <line x1="   925" y1="   160" x2="   925" y2="   190" style = "stroke: Black;"/>
+  <line x1="   925" y1="   190" x2="   900" y2="   190" style = "stroke: Black;"/>
+  <line x1="   200" y1="   270" x2="   175" y2="   270" style = "stroke: Black;"/>
+  <line x1="   175" y1="   270" x2="   175" y2="   240" style = "stroke: Black;"/>
+  <line x1="   175" y1="   240" x2="   925" y2="   240" style = "stroke: Black;"/>
+  <line x1="   925" y1="   240" x2="   925" y2="   270" style = "stroke: Black;"/>
+  <line x1="   925" y1="   270" x2="   900" y2="   270" style = "stroke: Black;"/>
+  <line x1="   200" y1="   350" x2="   175" y2="   350" style = "stroke: Black;"/>
+  <line x1="   175" y1="   350" x2="   175" y2="   320" style = "stroke: Black;"/>
+  <line x1="   175" y1="   320" x2="   925" y2="   320" style = "stroke: Black;"/>
+  <line x1="   925" y1="   320" x2="   925" y2="   350" style = "stroke: Black;"/>
+  <line x1="   925" y1="   350" x2="   900" y2="   350" style = "stroke: Black;"/>
+  <line x1="   200" y1="   430" x2="   175" y2="   430" style = "stroke: Black;"/>
+  <line x1="   175" y1="   430" x2="   175" y2="   400" style = "stroke: Black;"/>
+  <line x1="   175" y1="   400" x2="   925" y2="   400" style = "stroke: Black;"/>
+  <line x1="   925" y1="   400" x2="   925" y2="   430" style = "stroke: Black;"/>
+  <line x1="   925" y1="   430" x2="   900" y2="   430" style = "stroke: Black;"/>
+  <text x="   200" y="   640">Unused Non-Parent Objects:</text>
+  <text x="   220" y="   660">SYS-A CW SEC LOOP SETPOINT MANAGER</text>
+  <text x="   220" y="   680">SYS-B CW SEC LOOP SETPOINT MANAGER</text>
+  <text x="   220" y="   700">SYS-A HW SEC LOOP SETPOINT MANAGER</text>
+  <text x="   220" y="   720">SYS-B HW SEC LOOP SETPOINT MANAGER</text>
+  <text x="   220" y="   740">SYS-A SUPPLY AIR SETPOINT MANAGER</text>
+  <text x="   220" y="   760">SYS-B SUPPLY AIR SETPOINT MANAGER</text>
+  <text x="   220" y="   780">SYS-A SETPOINT MANAGER 2</text>
+  <text x="   220" y="   800">SYS-B SETPOINT MANAGER 2</text>
+  <text x="   220" y="   820">SYS-A COOLING COIL CONTROLLER</text>
+  <text x="   220" y="   840">SYS-A HEATING COIL CONTROLLER</text>
+  <text x="   220" y="   860">SYS-B COOLING COIL CONTROLLER</text>
+  <text x="   220" y="   880">SYS-B HEATING COIL CONTROLLER</text>
+  <text x="   220" y="   900">SYS-A OA CONTROLLER</text>
+  <text x="   220" y="   920">SYS-B OA CONTROLLER</text>
+  <text x="   200" y="   960">
+The following are not supported: objects related to controls, AirTerminal:SingleDuct:Uncontrolled, or ZoneHVAC:IdealLoadsAirSystem</text>
+</g>
+</svg>

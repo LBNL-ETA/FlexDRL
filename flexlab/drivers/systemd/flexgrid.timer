@@ -1,0 +1,10 @@
+[Unit]
+Description=Run flexgrid data collection every minute
+
+[Timer]
+OnCalendar=*:0/1
+Persistent=true
+Unit=flexgrid.service
+
+[Install]
+WantedBy=timers.target

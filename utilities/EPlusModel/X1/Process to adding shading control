@@ -1,0 +1,4 @@
+1. Add WindowProperty:ShadingControl (FenestrationSurface:Detailed)
+2. Add WindowMaterial:Shade (referenced by WindowProperty:ShadingControl)
+3. Add Schedule:File, read from csv 
+4. Class FenestrationSurface:Detailed, revise the field of shadingcontrol to the one just added

@@ -1,0 +1,11 @@
+[Unit]
+Description=Collect sensor and power data from cella and cellb
+Wants=postgres.service
+
+[Service]
+WorkingDirectory=/home/btmdrl/DRL_FLEXLAB/flexlab/drivers
+ExecStart=/home/btmdrl/anaconda3/bin/python cell_data.py
+User=btmdrl
+
+[Install]
+WantedBy=multi-user.target
