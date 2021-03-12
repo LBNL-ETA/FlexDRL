@@ -30,4 +30,4 @@ works, and perform publicly and display publicly, and to permit others to do so.
 
 ## License
 
-FlexDRL is available under the following (license)[https://github.com/LBNL-ETA/FlexDRL/blob/main/LICENSE.txt].
+FlexDRL is available under the following [license](https://github.com/LBNL-ETA/FlexDRL/blob/main/License.txt).
