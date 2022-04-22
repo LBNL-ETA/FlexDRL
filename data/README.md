@@ -12,6 +12,9 @@ All times in America/Los_Angeles time)
   * Start: 08/3/2020 19:00:00
   * End: 08/11/2020 11:00:00
 
+The times outside the experiment windows should be ignored as we were preparing for the next experiment. 
+
+
 ## CSV File headers
 Each CSVs are at 1minute intervals. 
 
@@ -71,3 +74,6 @@ Each CSVs are at 1minute intervals.
    * rb_sup_air_flow_sp_cmh: CellB Air Handling Unit Supply Air Flow setpoint (meter3/hour)
    * rb_sup_air_temp_sp_C: CellB Air Handling Unit Supply Air Temperature setpoint (Celsius)
    * rb_battery_rate_W: CellB battery charge/discharge rate (Watt)
+
+## More details
+More details about the experiment and the data can be found in this [paper](https://www.sciencedirect.com/science/article/pii/S0306261921010801).
